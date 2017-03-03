@@ -222,3 +222,34 @@ width:50%;
 .julie h3 {
 
 }
+
+.employers {
+  background:grey;
+
+}
+
+.employers-header {
+  color:white;
+  text-align:center;
+}
+
+.employers-logos img {
+  width:12%;
+  margin-left: 15%;
+}
+
+.learn-more {
+  margin-left:33%;
+  padding-top:25px;
+}
+
+.learn-more-button {
+  width:500px;
+  height:60px;
+  border-radius:5px;
+  background:#6fbbb7;
+  border:none;
+  color:white;
+  font-weight: bold;
+  text-align:center;
+}

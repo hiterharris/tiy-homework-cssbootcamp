@@ -1,0 +1,167 @@
+body {
+  font-family:'PT-serif';
+}
+
+nav {
+  background-color: #39474e;
+  height:100px;
+  overflow:hidden;
+}
+
+.nav-left .nav-right {
+  display:inline-block;
+}
+
+li {
+  float:left;
+  color: white;
+  font-family: PT-serif;
+  font-size: 18px;
+  padding-top:20px;
+  padding-left: 25px;
+  list-style: none;
+}
+
+.nav-right ul {
+  padding-right: 100px;
+}
+
+.nav-right li {
+  float:right;
+  padding-right:20px;
+  color: grey;
+}
+
+button {
+  height: 45px;
+  width:125px;
+  border-radius:3px;
+  background:#6fbbb7;
+  border:none;
+  color:white;
+  font-weight: bold;
+}
+
+.hero {
+  height:600px;
+  background-size:cover;
+  background-image:url("https://www.theironyard.com/content/dam/theironyard/home/home-hero3.jpg");
+}
+
+.welcome {
+  color:white;
+  font-size:30px;
+  line-height: 68px;
+  font-family:pt-serif;
+  font-weight:600;
+  padding-top: 150px;
+  padding-left: 125px;
+  width:500px;
+}
+
+.watch {
+    height:55px;
+    width:200px;
+    border-radius:3px;
+    background:#6fbbb7;
+    border:none;
+    color:white;
+    font-family:PT-serif;
+    font-weight: bold;
+    font-size:20px;
+
+}
+
+.companies {
+  height:100px;
+  background:lightgrey;
+  padding-left:80px;
+  overflow:hidden;
+}
+
+.company-logo {
+  height:100px;
+  margin-top:-32px;
+}
+
+.offerings {
+  height:500px;
+  margin-left:10%;
+  margin-right:10%;
+  margin-top:5%;
+}
+
+.courses {
+  float:left;
+  width:60%;
+}
+
+.email-box {
+  height:400px;
+  width:30%;
+  background:#ebebeb;
+  border-radius:.5em;
+  padding-top:20px;
+  float:right;
+}
+
+.Email-button {
+  width:175px;
+  height:55px;
+  border-radius:3px;
+  background:#6fbbb7;
+  border:none;
+  color:white;
+  font-family:PT-serif;
+  font-weight: bold;
+
+}
+
+.fact-sheet {
+  padding-top:20px;
+}
+
+.discover {
+  height:350px;
+  background:lightgrey;
+}
+
+.discover-small {
+  padding-top:25px;
+
+}
+
+.discover-heading {
+  text-align:center;
+  width:40%;
+  margin-left:30%;
+  margin-right:30%;
+  color:#838f95;
+}
+
+.discover-heading p {
+  color:black;
+}
+
+.course-logos {
+  width:50%;
+  margin-left:25%;
+  margin-right:25%;
+  text-align:center;
+}
+
+.front-end {
+  color:rgb(206,131,45)
+}
+
+.back-end {
+  color:rgb(184,88,76)
+}
+
+.mobile {
+  color:rgb(211,180,43);
+}
+
+.interface {
+  color:rgb(53,160,173);
+}

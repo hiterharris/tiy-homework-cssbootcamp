@@ -66,10 +66,8 @@ button {
     background:#6fbbb7;
     border:none;
     color:white;
-    font-family:PT-serif;
     font-weight: bold;
     font-size:20px;
-
 }
 
 .companies {
@@ -164,4 +162,63 @@ button {
 
 .interface {
   color:rgb(53,160,173);
+}
+
+.students {
+  height:400px;
+  color:#838f95;
+}
+
+.students-small {
+  margin-left:10%;
+  margin-right:10%;
+  padding-top:50px;
+}
+.quote {
+  width:25%;
+  float:left;
+}
+
+.stories-button {
+  width:175px;
+  height:55px;
+  border-radius:3px;
+  background:#6fbbb7;
+  border:none;
+  color:white;
+  font-weight: bold;
+}
+
+
+.alumni {
+  float:right;
+  width:55%;
+}
+
+.kelly {
+  float:left;
+  width:50%;
+}
+
+.kelly img {
+  border-radius:50%;
+  height:100px;
+  width:100px;
+  margin-left:33%;
+}
+
+.julie {
+float:right;
+width:50%;
+}
+
+.julie img {
+  border-radius:50%;
+  height:100px;
+  width:100px;
+  margin-left:33%;
+}
+
+.julie h3 {
+
 }

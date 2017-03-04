@@ -224,13 +224,16 @@ width:50%;
 }
 
 .employers {
-  background:grey;
-
+  background-image:url("https://www.theironyard.com/content/dam/theironyard/home/employers-image.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .employers-header {
   color:white;
   text-align:center;
+  padding-top:50px;
+  padding-bottom:50px;
 }
 
 .employers-logos img {
@@ -240,7 +243,8 @@ width:50%;
 
 .learn-more {
   margin-left:33%;
-  padding-top:25px;
+  padding-top:50px;
+  padding-bottom:50px;
 }
 
 .learn-more-button {
@@ -252,4 +256,51 @@ width:50%;
   color:white;
   font-weight: bold;
   text-align:center;
+}
+
+/*get rid of height later*/
+.questions {
+  height:400px;
+  color:#838f95;
+  margin-left:5%;
+  margin-right:5%;
+  margin-top:2.5%;
+  margin-bottom:2.5%;
+}
+
+.lets-talk {
+  width:45%;
+  float:left;
+}
+
+.call-email-forms {
+  width:45%;
+  float:right;
+}
+
+.call-form {
+  float:left;
+  width:40%;
+  background:#ebebeb;
+  border-radius:.5em;
+  padding-top:0px;
+  height:350px;
+  width:225px;
+
+}
+
+.email-form {
+  float:right;
+  width:40%;
+  background:#ebebeb;
+  border-radius:.5em;
+  padding-top:0px;
+  height:350px;
+  width:225px;
+
+}
+
+footer {
+  background:#39474E;
+  height:300px;
 }

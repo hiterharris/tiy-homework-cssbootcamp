@@ -12,10 +12,15 @@ nav {
   display:inline-block;
 }
 
+.logo {
+  position:relative;
+  bottom:30px;
+}
+
 li {
   float:left;
   color: white;
-  font-family: PT-serif;
+  font-family: 'PT-serif';
   font-size: 18px;
   padding-top:20px;
   padding-left: 25px;
@@ -33,13 +38,14 @@ li {
 }
 
 button {
-  height: 45px;
-  width:125px;
+  padding:10px;
+  bottom:10px;
   border-radius:3px;
   background:#6fbbb7;
   border:none;
   color:white;
   font-weight: bold;
+  position:relative;
 }
 
 .hero {
@@ -71,7 +77,6 @@ button {
 }
 
 .companies {
-  height:100px;
   background:lightgrey;
   padding-left:80px;
   overflow:hidden;
@@ -83,10 +88,10 @@ button {
 }
 
 .offerings {
-  height:500px;
   margin-left:10%;
   margin-right:10%;
   margin-top:5%;
+  overflow: hidden;
 }
 
 .courses {
@@ -120,7 +125,6 @@ button {
 }
 
 .discover {
-  height:350px;
   background:lightgrey;
 }
 
@@ -146,6 +150,7 @@ button {
   margin-left:25%;
   margin-right:25%;
   text-align:center;
+  overflow: hidden;
 }
 
 .front-end {
@@ -165,7 +170,7 @@ button {
 }
 
 .students {
-  height:400px;
+
   color:#838f95;
 }
 
@@ -173,6 +178,7 @@ button {
   margin-left:10%;
   margin-right:10%;
   padding-top:50px;
+  overflow: hidden;
 }
 .quote {
   width:25%;
@@ -224,6 +230,7 @@ width:50%;
 }
 
 .employers {
+  clear: both;
   background-image:url("https://www.theironyard.com/content/dam/theironyard/home/employers-image.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -260,7 +267,7 @@ width:50%;
 
 /*get rid of height later*/
 .questions {
-  height:400px;
+  overflow:hidden;
   color:#838f95;
   margin-left:5%;
   margin-right:5%;
@@ -303,4 +310,38 @@ width:50%;
 footer {
   background:#39474E;
   height:300px;
+}
+
+@media (max-width: 767px) {
+  .welcome {
+    padding-left: 0;
+    width: auto;
+  }
+
+  li {
+    float: none;
+    width: 100%;
+  }
+
+  .companies {
+    padding-left: 0;
+  }
+
+  .courses, .email-box, {
+    float: none;
+    width: 100%;
+  }
+
+  .course-logos {
+    float:none;
+    width:100%;
+    padding:none;
+    margin:auto;
+  }
+
+.students-small, .employers, .quote, .alumni, .kelly, .julie, .lets-talk, .call-email-forms, .call, .call-form, .email, .email-form, .learn-more-button, .learn-more{
+    float:none;
+    width:100%;
+  }
+
 }
